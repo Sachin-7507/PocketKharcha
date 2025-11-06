@@ -1,0 +1,87 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #37353e !important;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 100px;
+  display: block;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-weight: 700;
+  color: #37353e;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  color: #555;
+  max-width: 750px;
+  margin: 0 auto 20px;
+  line-height: 1.8;
+}
+
+.about-section img {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #37353e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #ffb400;
+}
+
+footer small {
+  color: #aaa;
+}

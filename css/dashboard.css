@@ -1,0 +1,97 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Filters */
+.filters label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Cards */
+.card h6 {
+  font-size: 0.9rem;
+  color: #555;
+}
+.card h4 {
+  font-weight: bold;
+}
+
+.table thead th {
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  background-color: #343a40; /* same as your table header bg */
+  color: white; /* header text color */
+  z-index: 1;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+}
+
+/* Chart Section */
+.charts h5 {
+  color: #37353e;
+}
+
+.charts .card {
+  border: none;
+  background: #fff;
+  transition: 0.3s;
+  padding: 0.8rem !important;
+}
+
+.charts .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Equal chart sizes for bar & donut */
+.chart-wrapper {
+  position: relative;
+  height: 180px !important; /* equal height */
+  width: 100% !important; /* full width of card */
+  max-width: 280px; /* limit the maximum size */
+  margin: 0 auto; /* center horizontally */
+}
+
+.chart-wrapper canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+/* General Canvas Fallback */
+canvas {
+  max-height: 180px !important;
+}
+
+/* dashboard.css */
+.table-responsive {
+  max-height: 300px; /* adjust height as needed for 5 rows */
+  overflow-y: auto;
+}
+
+.footer a:hover {
+  color: #ffb400;
+  text-decoration: underline;
+}
+
+.footer h5 {
+  color: #ffb400; /* highlight headings */
+}
+
+.dropdown-toggle::after {
+  margin-left: 6px;
+}

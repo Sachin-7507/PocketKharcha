@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.signup-form h2 {
+  font-weight: 700;
+  color: #37353e;
+}
+
+.signup-form p {
+  font-size: 0.9rem;
+}
+
+.signup-form .btn-primary {
+  background-color: #37353e;
+  border: none;
+  color: #f1f1f1;
+}
+
+.signup-form .btn-primary:hover {
+  background-color: #ffb400;
+  color: #fff;
+}
+
+.signup-form .btn-light:hover {
+  background-color: #f1f1f1;
+}
+
+.signup-form a {
+  text-decoration: none;
+  color: #37353e;
+  font-weight: 500;
+}
+
+.signup-form a:hover {
+  text-decoration: underline;
+}

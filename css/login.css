@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  padding: 50px;
+  background-color: white;
+
+  /* Center child (.box) horizontally + vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 40%;
+  height: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
