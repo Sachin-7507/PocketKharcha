@@ -4,11 +4,50 @@ body {
 }
 
 /* Header */
+/* Header */
 header {
-  height: 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 1rem;
+  background-color: #343a40;
+  flex-wrap: wrap; /* allow wrapping on small screens */
+}
+
+/* Logo */
+.navbar-brand img {
+  height: 80px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Header right container (search + dropdown) */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap; /* wrap on mobile */
+  width: auto;
+}
+
+/* Search input */
+#searchExpenseInput {
+  min-width: 120px;
+  width: 200px;
+  max-width: 100%;
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .header-right {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 0.5rem; /* small space below logo */
+  }
+
+  #searchExpenseInput {
+    width: 100%;
+  }
 }
 
 /* Filters */
@@ -34,14 +73,7 @@ header {
   color: white; /* header text color */
   z-index: 1;
 }
-
-/* Footer */
-footer {
-  background-color: #fff;
-}
-
-/* Chart Section */
-.charts h5 {
+Chart Section */ .charts h5 {
   color: #37353e;
 }
 
@@ -90,6 +122,11 @@ canvas {
 
 .footer h5 {
   color: #ffb400; /* highlight headings */
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
 }
 
 .dropdown-toggle::after {
